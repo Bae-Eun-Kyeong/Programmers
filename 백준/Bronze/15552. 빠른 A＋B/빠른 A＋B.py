@@ -1,7 +1,6 @@
-import sys  # sys모듈 읽어들이기
-
-t = int(sys.stdin.readline())
-
-for i in range(t):
+import sys
+ 
+inp = int(sys.stdin.readline())
+for i in range(inp):
     a,b = map(int, sys.stdin.readline().split())
     print(a+b)
